@@ -1,0 +1,218 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	background-image: url("images/background.png");
+}
+
+/** ----------- All / Home --------------- **/ 
+
+.logodiv
+{
+	text-align: center;
+	margin: auto;
+}
+
+.logo
+{
+	width: 10%;
+	padding: 1vw;
+	margin-left: 5vw;
+}
+
+.header
+{
+	border-bottom: 1px solid #29aae2;
+	box-shadow: 0px 10px 8px #b0d2e0;
+	height: 7vw;
+	background-color: white;
+}
+
+.loginbtn
+{
+	background-color: #38b6ff;
+	color: white;
+	border-radius: 15px;
+	border-color: transparent;
+	width: 6vw;
+	height: 2.2vw;
+	text-align: center;
+	float: right;
+	margin-top: 2.5vw;
+	margin-right: 1vw;
+	font-size: 1vw;
+}
+
+.loginbtn:hover
+{
+	background-color: #aebcc2;
+	cursor: pointer;
+}
+
+.content
+{
+	margin-top: 3vw;
+}
+
+.searchbar
+{
+	width: 95%;
+	margin: auto;
+	text-align: center;
+}
+
+#petsearch
+{
+	width: 70%;
+	height: 2vw;
+	padding-left: 1vw;
+	padding-right: 1vw;
+	border-radius: 15px;
+	border-color: #38b6ff;
+	text-align: center;
+}
+
+.searchbarsubmit
+{
+	height: 2vw;
+	background-color: #38b6ff;
+	color: white;
+	border-radius: 15px;
+	border-color: transparent;
+	text-align: center;
+	margin-right: 1vw;
+	font-size: 1vw;
+	padding: 5px;
+}
+
+.searchbarsubmit:hover
+{
+	background-color: #aebcc2;
+	cursor: pointer;
+}
+
+#petresults
+{
+	width: 55%;
+	border: 3px solid black;
+	height: 65vh;
+	margin: auto;
+	margin-top: 3vw;
+	border-radius: 15px;
+	border-color: #38b6ff;
+}
+
+/** ----------- Login / Signup --------------- **/ 
+
+.login
+{
+	width: 30%;
+	border: 3px solid #38b6ff;
+	margin: auto;
+	margin-top: 0.5vw;
+	border-radius: 15px;
+	text-align: center;
+	padding-top: 5vh;
+	padding-bottom: 5vh;
+	font-family: ERASMD;
+	font-size: 1vw;
+	background-color: white;
+}
+
+.logininput
+{
+	width: 50%;
+	height: 2vw;
+	padding-left: 1vw;
+	padding-right: 1vw;
+	border-radius: 15px;
+	border-color: #38b6ff;
+	text-align: center;
+}
+
+.logintitle
+{
+	width: 30%;
+	font-size: 3vw;
+	text-align: center;
+	margin: auto;
+	font-family: ERASMD;
+}
+
+.signupbtndiv
+{
+	margin: auto;
+	text-align: center;
+	margin-top: 1vw;
+}
+
+.signupbtn
+{
+	background-color: #38b6ff;
+	color: white;
+	border-radius: 15px;
+	border-color: transparent;
+	width: 11vw;
+	height: 2.2vw;
+	text-align: center;
+	font-size: 1vw;
+	margin: auto;
+	margin-bottom: 1vw;
+}
+
+.signupbtn:hover
+{
+	background-color: #aebcc2;
+	cursor: pointer;
+}
+
+/** ----------- User Profile --------------- **/ 
+.profilename
+{
+	font-size: 2vw;
+	text-align: center;
+	font-family: ERASMD;
+}
+
+.profileimg
+{
+	width: 6vw;
+	height: 6vw;
+	margin: auto;
+	text-align: center;
+}
+
+.profileimgdiv
+{
+	margin: auto;
+	width: 6vw;
+	height: 6vw;
+}
+
+.profileheader
+{
+	width: 4vw;
+	height: 4vw;
+	margin: auto;
+}
+
+/** ----------- Admin Profile --------------- **/ 
+
+
+/** ----------- Fonts --------------- **/ 
+
+@font-face 
+{
+  font-family: ERASBold;
+  src: url(fonts/ERASBD.TTF);
+}
+
+@font-face 
+{
+  font-family: ERASMD;
+  src: url(fonts/ERASMD.TTF);
+}
